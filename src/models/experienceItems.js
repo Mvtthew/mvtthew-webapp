@@ -7,7 +7,7 @@ const experienceItems = [
         jobTo: null
     },
     {
-        title: 'Website freelance',
+        title: 'Website creation freelance',
         where: '',
         jobFrom: '12.2020',
         jobTo: '03.2021'
