@@ -6,9 +6,13 @@
     <theme-mode-switcher />
     <side-menu />
     <div class="app-box">
-      <transition>
-        <router-view />
-      </transition>
+      <div class="position-relative w-100 h-100">
+        <router-view v-slot="{ Component }">
+          <transition name="fade">
+            <component :is="Component" />
+          </transition>
+        </router-view>
+      </div>
     </div>
     <slide-navigation />
     <social-media-buttons />
@@ -44,6 +48,10 @@ export default {
   margin: 0 auto;
   height: 100vh;
   overflow: auto;
-  padding: 0 15% 8% 15%;
+  padding: 8% 15% 8% 15%;
+  box-shadow: 0 0 10px #fff inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>

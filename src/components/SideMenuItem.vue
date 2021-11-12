@@ -1,8 +1,8 @@
 <template>
   <router-link
-    :class="{'h6 text-primary': active}"
+    :class="{'text-heading text-primary': active}"
     :to="href"
-    class="side-menu-item my-3"
+    class="side-menu-item my-3 fw-lighter"
   >
     — {{ title }}
   </router-link>
@@ -19,11 +19,13 @@ export default {
     href: {
       type: String,
       required: true
-    },
-    active: {
-      type: Boolean,
-      default: false
     }
+  },
+  computed: {
+    active () {
+      return this.$route.path === this.href
+    }
+
   }
 }
 </script>

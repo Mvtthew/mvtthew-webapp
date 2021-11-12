@@ -1,31 +1,25 @@
 <template>
   <div class="side-menu position-fixed start-0 top-0 ps-4 d-flex flex-column justify-content-center">
     <side-menu-item
-      active
-      href="/"
-      title="Welcome"
-    />
-    <side-menu-item
-      href="/experience"
-      title="Experience"
-    />
-    <side-menu-item
-      href="/tech-stack"
-      title="Tech stack"
-    />
-    <side-menu-item
-      href="/education"
-      title="Education"
+      v-for="slide in slides"
+      :key="slide.id"
+      v-bind="slide"
     />
   </div>
 </template>
 
 <script>
 import SideMenuItem from '@/components/SideMenuItem'
+import slides from '@/models/slides'
 
 export default {
   name: 'SideMenu',
-  components: { SideMenuItem }
+  components: { SideMenuItem },
+  computed: {
+    slides () {
+      return slides
+    }
+  }
 }
 </script>
 

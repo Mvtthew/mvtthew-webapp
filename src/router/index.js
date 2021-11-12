@@ -6,7 +6,7 @@ const router = createRouter({
   routes
 })
 
-router.afterEach(to => {
+router.beforeEach(to => {
   document.title = 'Mvtthew :: ' + to.meta.title
 })
 
