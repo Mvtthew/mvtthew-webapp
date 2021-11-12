@@ -1,30 +1,49 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div
+    :class="{'dark-mode': isDarkMode}"
+    class="app"
+  >
+    <theme-mode-switcher />
+    <side-menu />
+    <div class="app-box">
+      <transition>
+        <router-view />
+      </transition>
+    </div>
+    <slide-navigation />
+    <social-media-buttons />
   </div>
-  <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import ThemeModeSwitcher from '@/components/ThemeModeSwitcher'
+import SideMenu from '@/components/SideMenu'
+import SlideNavigation from '@/components/SlideNavigation'
+import SocialMediaButtons from '@/components/SocialMediaButtons'
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+export default {
+  name: 'App',
+  components: {
+    SocialMediaButtons,
+    SlideNavigation,
+    SideMenu,
+    ThemeModeSwitcher
+  },
+  computed: {
+    isDarkMode () {
+      return this.$store.getters.isDarkMode
     }
   }
+}
+</script>
+
+<style lang="scss" scoped>
+.app-box {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100vh;
+  overflow: auto;
+  padding: 0 15% 8% 15%;
 }
 </style>

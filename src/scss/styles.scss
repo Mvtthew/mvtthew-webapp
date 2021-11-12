@@ -1,0 +1,32 @@
+@import "variables";
+@import "~bootstrap";
+@import "~boxicons/css/boxicons.min.css";
+@import "fonts";
+@import "cursor";
+@import "container";
+
+.bx {
+  transform: translateY(10%);
+}
+
+.btn {
+  &:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  background-color: $page-bg;
+  filter: invert(0);
+  transition: filter 0.5s;
+
+  &.dark-mode {
+    filter: invert(1);
+  }
+}
