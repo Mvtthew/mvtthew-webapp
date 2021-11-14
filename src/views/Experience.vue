@@ -37,14 +37,16 @@
             </div>
         </div>
         <div class="col-xxl-8 ps-5">
-            <h1>
-                Commercial Experience
-            </h1>
-            <h5 class="text-fancy mb-5">
-                In total <span class="text-heading text-primary">{{ totalHumanized }}</span>
-            </h5>
+            <div class="ps-5">
+                <h1>
+                    Commercial Experience
+                </h1>
+                <h5 class="text-fancy mb-5">
+                    In total <span class="text-heading text-primary">{{ totalHumanized }}</span>
+                </h5>
 
-            <experience-timeline />
+                <experience-timeline />
+            </div>
         </div>
     </div>
 </template>
