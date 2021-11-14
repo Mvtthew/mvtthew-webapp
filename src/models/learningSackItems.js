@@ -18,7 +18,7 @@ const learningSackItems = [
         name: 'Nuxt'
     },
     {
-        name: 'Nest.js'
+        name: 'NestJS'
     }
 ]
 

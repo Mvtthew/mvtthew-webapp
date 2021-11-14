@@ -9,6 +9,32 @@
             <p class="mb-0 small">
                 Cool mountain again
             </p>
+
+            <div class="ps-2 pt-5">
+                <p class="text-fancy">
+                    My other achievements <span class="text-heading">(non job related)</span>:
+                </p>
+
+                <ul class="small pe-3">
+                    <li
+                        v-for="(item, index) in otherAchievementsItems"
+                        :key="'learning_' + index"
+                        class="mb-1"
+                    >
+                        {{ item.name }}
+                        <span class="small me-1 badge bg-dark">
+                            {{ item.type }}
+                        </span>
+                        <a
+                            v-if="item.link"
+                            :href="item.link"
+                            target="_blank"
+                        >
+                            <i class="bx bx-link-external" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="col-xxl-8 ps-5">
             <h1>
@@ -28,6 +54,7 @@ import ExperienceTimeline from '@/components/ExperienceTimeline'
 import moment from 'moment'
 import experienceItems from '@/models/experienceItems'
 import { jobLength } from '@/utils/jobLength'
+import otherAchievementsItems from '@/models/otherAchievementsItems'
 
 export default {
     name: 'Experience',
@@ -40,6 +67,9 @@ export default {
     computed: {
         totalHumanized () {
             return `${this.total.years()} year and ${this.total.months()} months`
+        },
+        otherAchievementsItems () {
+            return otherAchievementsItems
         }
     },
     created () {

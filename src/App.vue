@@ -14,7 +14,6 @@
                 </router-view>
             </div>
         </div>
-        <slide-navigation />
         <social-media-buttons />
     </div>
 </template>
@@ -22,14 +21,12 @@
 <script>
 import ThemeModeSwitcher from '@/components/ThemeModeSwitcher'
 import SideMenu from '@/components/SideMenu'
-import SlideNavigation from '@/components/SlideNavigation'
 import SocialMediaButtons from '@/components/SocialMediaButtons'
 
 export default {
     name: 'App',
     components: {
         SocialMediaButtons,
-        SlideNavigation,
         SideMenu,
         ThemeModeSwitcher
     },
