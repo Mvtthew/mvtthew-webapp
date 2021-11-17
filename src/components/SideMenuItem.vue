@@ -23,7 +23,7 @@ export default {
     },
     computed: {
         active () {
-            return this.$route.path === this.href
+            return this.$route.path === this.href || this.$route.path === this.href.slice(0, -1)
         }
 
     }

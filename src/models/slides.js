@@ -8,25 +8,25 @@ const slides = [
     {
         id: 2,
         title: 'Tech stack',
-        href: '/tech-stack'
+        href: '/tech-stack/'
     },
 
     {
         id: 3,
         title: 'Experience',
-        href: '/experience'
+        href: '/experience/'
     },
 
     {
         id: 4,
         title: 'Portfolio',
-        href: '/portfolio'
+        href: '/portfolio/'
     },
 
     {
         id: 5,
         title: 'Contact',
-        href: '/contact'
+        href: '/contact/'
     }
 ]
 

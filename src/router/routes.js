@@ -8,7 +8,7 @@ export const routes = [
         }
     },
     {
-        path: '/experience',
+        path: '/experience/',
         name: 'Experience',
         component: () => import('../views/Experience'),
         meta: {
@@ -16,7 +16,7 @@ export const routes = [
         }
     },
     {
-        path: '/tech-stack',
+        path: '/tech-stack/',
         name: 'TechStack',
         component: () => import('../views/TechStack'),
         meta: {
@@ -24,7 +24,7 @@ export const routes = [
         }
     },
     {
-        path: '/contact',
+        path: '/contact/',
         name: 'Contact',
         component: () => import('../views/Contact'),
         meta: {
@@ -32,11 +32,11 @@ export const routes = [
         }
     },
     {
-        path: '/portfolio',
+        path: '/portfolio/',
         name: 'Portfolio',
         component: () => import('../views/Portfolio'),
         meta: {
-            title: 'Contact'
+            title: 'Portfolio'
         }
     },
     {
