@@ -1,11 +1,19 @@
 <template>
     <div class="position-fixed bottom-0 end-0 p-4 d-flex flex-column">
-        <button class="btn btn-sm">
+        <a
+            class="btn btn-sm"
+            href="https://github.com/mvtthew"
+            target="_blank"
+        >
             <i class="bx bxl-github h4" />
-        </button>
-        <button class="btn btn-sm">
+        </a>
+        <a
+            class="btn btn-sm"
+            href="https://www.instagram.com/immvtthew"
+            target="_blank"
+        >
             <i class="bx bxl-instagram h4" />
-        </button>
+        </a>
     </div>
 </template>
 
