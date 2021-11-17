@@ -32,6 +32,14 @@ export const routes = [
         }
     },
     {
+        path: '/portfolio',
+        name: 'Portfolio',
+        component: () => import('../views/Portfolio'),
+        meta: {
+            title: 'Contact'
+        }
+    },
+    {
         path: '/:pathMatch(.*)*',
         redirect: '/'
     }

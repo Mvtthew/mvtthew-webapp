@@ -19,6 +19,12 @@ const slides = [
 
     {
         id: 4,
+        title: 'Portfolio',
+        href: '/portfolio'
+    },
+
+    {
+        id: 5,
         title: 'Contact',
         href: '/contact'
     }
