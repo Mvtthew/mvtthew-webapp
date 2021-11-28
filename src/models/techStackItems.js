@@ -25,6 +25,11 @@ const techStackItems = [
         versions: '2.2.x'
     },
     {
+        bxlIcon: 'bx-test-tube',
+        name: 'Jest',
+        versions: '25.x+'
+    },
+    {
         bxlIcon: 'bxl-nodejs',
         name: 'Node.js',
         versions: '12.x / 14.x / 16.x'
@@ -33,6 +38,16 @@ const techStackItems = [
         bxlIcon: 'bx-data',
         name: 'MongoDB',
         versions: '4.2.x +'
+    },
+    {
+        bxlIcon: 'bx-data',
+        name: 'MySQL',
+        versions: '8.0'
+    },
+    {
+        bxlIcon: 'bxl-docker',
+        name: 'Docker',
+        versions: '~19.x+'
     },
     {
         bxlIcon: 'bxl-sass',

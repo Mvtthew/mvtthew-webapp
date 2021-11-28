@@ -12,9 +12,6 @@ const learningSackItems = [
         name: 'React Native'
     },
     {
-        name: 'Docker'
-    },
-    {
         name: 'Nuxt'
     },
     {
