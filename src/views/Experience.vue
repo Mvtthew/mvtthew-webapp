@@ -7,7 +7,7 @@
                 src="/assets/mountain2.png"
             >
             <p class="mb-0 small">
-                Cool mountain again
+                Cool mountain again.
             </p>
 
             <div class="ps-2 pt-5">

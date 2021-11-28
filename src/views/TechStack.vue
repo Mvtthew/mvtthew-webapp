@@ -39,7 +39,7 @@
                 src="/assets/mountain1.png"
             >
             <p class="text-end mb-0 small">
-                Cool mountain
+                Cool mountain.
             </p>
 
             <div class="ps-5 pt-5">

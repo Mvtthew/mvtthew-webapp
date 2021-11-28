@@ -8,7 +8,7 @@
                     src="/assets/mountain4.png"
                 >
                 <p class="mb-0 small">
-                    Mountains are cool
+                    Mountains are cool.
                 </p>
             </div>
             <div class="col-lg-8">
