@@ -5,7 +5,7 @@
                 Mateusz Ożóg
             </p>
             <h3 class="mb-0">
-                Vue.js / Front-end web developer
+                Vue.js / Frontend software developer
             </h3>
             <p class="small">
                 also a 3rd year IT student
