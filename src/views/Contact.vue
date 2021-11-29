@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6">
             <h1>Contact</h1>
             <h3 class="text-fancy mt-5 pt-5">
                 Email
@@ -12,7 +12,7 @@
                 Feel free to contact me anytime.
             </p>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
             <img
                 alt="mvtthew-mountain-5"
                 class="img-fluid"

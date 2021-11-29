@@ -10,7 +10,7 @@
                 Cool mountain again.
             </p>
 
-            <div class="ps-2 pt-5">
+            <div class="ps-lg-2 pt-5">
                 <p class="text-fancy">
                     My other achievements <span class="text-heading">(non job related)</span>:
                 </p>
@@ -36,8 +36,8 @@
                 </ul>
             </div>
         </div>
-        <div class="col-xxl-8 ps-5">
-            <div class="ps-5">
+        <div class="col-xxl-8 ps-lg-5">
+            <div class="ps-lg-5">
                 <h1>
                     Commercial Experience
                 </h1>
