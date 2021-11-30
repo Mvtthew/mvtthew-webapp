@@ -1,6 +1,8 @@
 <template>
     <div class="welcome-box position-relative">
-        <div class="welcome-box-text w-100 h-100">
+        <div
+            class="welcome-box-text w-100 h-100 d-lg-block d-flex justify-content-center flex-column"
+        >
             <p class="display-5 text-fancy">
                 Mateusz Ożóg
             </p>
