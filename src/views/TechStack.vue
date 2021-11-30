@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xxl-5 ps-5">
+        <div class="col-xxl-5 ps-lg-5">
             <img
                 alt="mvtthew-mountain-1"
                 class="img-fluid"
@@ -42,7 +42,7 @@
                 Cool mountain.
             </p>
 
-            <div class="ps-5 pt-5">
+            <div class="ps-lg-5 pt-5">
                 <p class="text-fancy">
                     Lately I'm learning really <span class="text-heading">cool stuff</span> too:
                 </p>
